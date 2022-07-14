@@ -10,7 +10,7 @@ const config = {
   tagline: "Mailing API for developers",
   url: "https://docs.devmailer.netlify.app",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/icon.png",
 
