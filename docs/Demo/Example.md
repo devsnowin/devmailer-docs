@@ -4,7 +4,7 @@ sidebar_position: 1
 
 Let's see an example
 
-**POST** sendmail
+**POST** mail
 
 #### Request URL
 

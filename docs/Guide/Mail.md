@@ -20,11 +20,13 @@ GET /api/sendmail
 
 #### Parameters
 
-| param   | Description         |
-| ------- | ------------------- |
-| from    | Sender name         |
-| to      | Recevier email ID   |
-| subject | Subject of the mail |
-| message | Body of the mail    |
+| param   | Description         | Required |
+| ------- | ------------------- | -------- |
+| from    | Sender name         | true     |
+| to      | Recevier email ID   | true     |
+| subject | Subject of the mail | true     |
+| message | Body of the mail    | true     |
+
+> The form data must be urlencoded data \*
 
 **Note:** message can be <i><u>html</u></i>

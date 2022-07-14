@@ -3,7 +3,7 @@ slug: /
 sidebar_position: 1
 ---
 
-# Getting Started
+# 🚀 Getting Started
 
 Let's discover about **Dev Mailer in less than 5 minutes**.
 
