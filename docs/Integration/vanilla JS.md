@@ -28,9 +28,12 @@ function sendMail(e) {
   const options = {
     method: "POST",
     body: urlencoded,
+    headers: {
+        'Content-Type': 'application/json'
+      },
   };
 
-  fetch("http://localhost:3001/api/sendmail?apikey=YOUR_API_KEY", options)
+  fetch("https://devmailer.netlify.app/api/sendmail?apikey=YOUR_API_KEY", options)
     .then((response) => response.text())
     .then((result) => console.log(result))
     .catch((error) => console.log(error));
@@ -41,4 +44,40 @@ function sendMail(e) {
 
 ```javascript
 document.querySelector("#myform").addEventListener("submit", sendMail);
+```
+
+(or)
+
+## Using json
+
+```javascript
+const senderName = document.querySelector("#senderName");
+const to = document.querySelector("#to");
+const subject = document.querySelector("#subject");
+const message = document.querySelector("#message");
+
+document.querySelector("#myform").addEventListener("submit", async (e) => {
+    e.preventDefault()
+    
+  const data = {
+    from: senderName.value,
+    to: to.value,
+    subject: subject.value,
+    message: message.value
+  };
+
+  await fetch(
+    "https://devmailer.netlify.app/api/sendmail?apikey=YOUR_API_KEY",
+    {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data),
+    }
+  )
+    .then((r) => console.log(r))
+    .catch((e) => console.log(e));
+});
+
 ```
