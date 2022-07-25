@@ -28,9 +28,6 @@ function sendMail(e) {
   const options = {
     method: "POST",
     body: urlencoded,
-    headers: {
-        'Content-Type': 'application/json'
-      },
   };
 
   fetch("https://devmailer.vercel.app/api/sendmail?apikey=YOUR_API_KEY", options)
