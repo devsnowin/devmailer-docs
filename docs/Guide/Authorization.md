@@ -9,7 +9,7 @@ Most actions can be performed without requiring authentication from a specific u
 To authenticate requests in this way, pass your application’s access key via the query parameter:
 
 ```URL
-    https://devmailer.herokuapp.com/api/sendmail?apikey=YOUR_API_KEY
+    https://devmailer.vercel.app/api/sendmail?apikey=YOUR_API_KEY
 ```
 
 **⚠️Note:**

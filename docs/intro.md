@@ -12,7 +12,7 @@ Let's discover about **Dev Mailer in less than 5 minutes**.
 Let's get started!
 
 ### 1. Create a new account
-###### a) Go to the <a href="https://devmailer.herokuapp.com" target="_blank">DevMailer official site</a>.
+###### a) Go to the <a href="https://devmailer.vercel.app/" target="_blank">DevMailer official site</a>.
 
 ###### b) Click on **Get started**
 

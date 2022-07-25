@@ -33,7 +33,7 @@ function sendMail(e) {
       },
   };
 
-  fetch("https://devmailer.herokuapp.com/api/sendmail?apikey=YOUR_API_KEY", options)
+  fetch("https://devmailer.vercel.app/api/sendmail?apikey=YOUR_API_KEY", options)
     .then((response) => response.text())
     .then((result) => console.log(result))
     .catch((error) => console.log(error));
@@ -67,7 +67,7 @@ document.querySelector("#myform").addEventListener("submit", async (e) => {
   };
 
   await fetch(
-    "https://devmailer.herokuapp.com/api/sendmail?apikey=YOUR_API_KEY",
+    "https://devmailer.vercel.app/api/sendmail?apikey=YOUR_API_KEY",
     {
       method: "POST",
       headers: {

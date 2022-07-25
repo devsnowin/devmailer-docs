@@ -9,7 +9,7 @@ Let's see an example
 #### Request URL
 
 ```
-https://devmailer.herokuapp.com/api/sendmail?apikey=j2hvs2@sh2872092ue12seQ3
+https://devmailer.vercel.app/api/sendmail?apikey=j2hvs2@sh2872092ue12seQ3
 ```
 
 #### Response

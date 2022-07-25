@@ -7,7 +7,7 @@ Send mail by providing the required parameters.
 ## End point
 
 ```
-https://devmailer.herokuapp.com/
+https://devmailer.vercel.app/
 ```
 
 ## Send mail
