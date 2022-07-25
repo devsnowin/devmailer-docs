@@ -4,7 +4,7 @@ sidebar_position: 1
 
 ## Location
 
-The API is available at ` https://devmailer.netlify.app/`. Responses are sent as JSON.
+The API is available at `https://devmailer.herokuapp.com/`. Responses are sent as JSON.
 
 ## Summary objects
 

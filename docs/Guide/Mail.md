@@ -7,7 +7,7 @@ Send mail by providing the required parameters.
 ## End point
 
 ```
-https://devmailer.netlify.app/
+https://devmailer.herokuapp.com/
 ```
 
 ## Send mail
